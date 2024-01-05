@@ -18,6 +18,7 @@
     <div id="content">
         <?php 
         require_once "./mvc/views/pages/".$data["Pages"].".php";
+        hi
         ?>
         
     </div>
