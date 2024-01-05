@@ -14,7 +14,7 @@ class App {
 
 
         //  Xử lí controller
-        if (file_exists("./mvc/controllers/".$arr[0].".php")) {
+        if (!empty($arr) && file_exists("./mvc/controllers/".$arr[0].".php")) {
             $this->controller = $arr[0];
             unset($arr[0]);  
         }
