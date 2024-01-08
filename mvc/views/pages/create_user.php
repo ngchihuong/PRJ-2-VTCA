@@ -33,6 +33,12 @@ if (isset($data["result"])) { ?>
 
   <?php 
     if ($data["result"] == "true") {
+
+<?php 
+if (isset($data["result"])) { ?>
+<h3>
+  <?php 
+    if ($data["result"]) {
   echo "Suceesful";
   }
 else {

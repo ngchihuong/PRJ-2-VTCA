@@ -9,6 +9,10 @@
             "pages"=> "home",
             
         ]);
+        $teo = $this->model("SinhVienModel");
+        echo $teo->GetSv();
+
+
         //view
     }
     function Show($c , $d)

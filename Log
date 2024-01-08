@@ -1,0 +1,16 @@
+khi bắt đầu vào web ->+ hiển thị trang chủ -> được sử dụng tìm kiếm , xem chi tiết phim , xem phim , xem các danh mục ( trừ rating với comment ) 
+			
+khi đăng nhập -> + admin : crud , thống kê lượt xem , rating của phim theo tháng ,
+		+ user : các quyền cơ bản như trên ( được thêm bình luận và rating) , lịch sử xem 
+
+users : user_id , username , password, email , role , status 
+admin : crud , ...
+client : signin , signup ,quên mk 
+genres : genres_id , name , status
+movies: movie_id , title , description , release_date , duration ,views ,  status 
+movies_genres : movie_id , genres_id -> 2 cái là 1 primary
+ratings: movie_id , user_id , rating 
+comments : movie_id , user_id , contents , time 
+history : user_id , movie_id , view_time
+
+diagram : class , activity , phát biểu bài toán ,use case description , slide , report
