@@ -7,7 +7,7 @@ class SinhVienModel extends Db {
      return $a + $b;   
     }
     public function SinhVien() {
-     $query = "SELECT * FROM sinhvien";
+     $query = "SELECT * FROM genres";
      return mysqli_query($this->con , $query);   
     }
 }
